@@ -1,10 +1,10 @@
 #summary A Python Logging Server
 
 = Introduction =
-This project provides a Python Logging Server based on the [http://twistedmatrix.com/trac/ Twisted] framework. This provides a centralized logging server to compliment the logging modules sockethandler client. 
+This project provides a Python Logging Server based on the [http://twistedmatrix.com/trac/ Twisted] framework. This creates a centralized logging server to compliment the logging modules sockethandler client. 
 
 == Purpose ==
-My reason for creating is that I like the Python logging system, but wasn't crazy about every Python process on every separate server having it's own log file. Plus, I had to know which log file to look in to find a problem that might be occurring. I could have all Python processes point to one log file, but there was nothing to prevent them from trashing the file by trying to write at the same time. In addition, processes on other servers couldn't do this unless they used some mounted file system. Plus, tailing a log file, while useful, didn't have the immediacy I was looking for. 
+My reason for creating this is I like the Python logging system, but wasn't crazy about every Python process on every separate server having it's own log file. Plus, I had to know which log file to look in to find a problem that might be occurring. I could have all Python processes point to one log file, but there was nothing to prevent them from trashing the log file by trying to write at the same time. In addition, processes on other servers couldn't do this unless they used some mounted/shared file system. Plus, tailing a log file, while useful, didn't have the immediacy I was looking for. 
 
 The logging server resolves these issues by providing the following:
  * It synchronizes access to the one central log file through the network interface
