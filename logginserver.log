@@ -1,0 +1,74 @@
+2009-01-02 15:10:54-0500 [-] Log opened.
+2009-01-02 15:10:54-0500 [-] twistd 8.2.0 (/usr/bin/python 2.5.2) starting up.
+2009-01-02 15:10:54-0500 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2009-01-02 15:10:54-0500 [-] loggingprotocol.LoggingFactory starting on 9020
+2009-01-02 15:10:54-0500 [-] Starting factory <loggingprotocol.LoggingFactory instance at 0x93b066c>
+2009-01-02 15:10:54-0500 [-] twisted.web.server.Site starting on 9021
+2009-01-02 15:10:54-0500 [-] Starting factory <twisted.web.server.Site instance at 0x93b06ec>
+2009-01-02 15:11:29-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:11:28 +0000] "GET / HTTP/1.1" 200 7950 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:11:29-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:11:29 +0000] "GET /favicon.ico HTTP/1.1" 404 173 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:11:32-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:11:32 +0000] "GET /favicon.ico HTTP/1.1" 404 173 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:11:34-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:11:34 +0000] "GET / HTTP/1.1" 200 10878 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:11:39-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:11:39 +0000] "GET / HTTP/1.1" 200 14050 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:11:44-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:11:44 +0000] "GET / HTTP/1.1" 200 16490 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:11:50-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:11:49 +0000] "GET / HTTP/1.1" 200 18198 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:11:55-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:11:54 +0000] "GET / HTTP/1.1" 200 21126 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:12:00-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:11:59 +0000] "GET / HTTP/1.1" 200 24786 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:12:05-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:12:04 +0000] "GET / HTTP/1.1" 200 26983 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:12:10-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:20:12:09 +0000] "GET / HTTP/1.1" 200 29179 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 15:12:12-0500 [-] Received SIGTERM, shutting down.
+2009-01-02 15:12:12-0500 [-] (Port 9021 Closed)
+2009-01-02 15:12:12-0500 [-] Stopping factory <twisted.web.server.Site instance at 0x93b06ec>
+2009-01-02 15:12:12-0500 [-] (Port 9020 Closed)
+2009-01-02 15:12:12-0500 [-] Stopping factory <loggingprotocol.LoggingFactory instance at 0x93b066c>
+2009-01-02 15:12:12-0500 [-] Main loop terminated.
+2009-01-02 15:12:12-0500 [-] Server Shut Down.
+2009-01-02 16:16:43-0500 [-] Log opened.
+2009-01-02 16:16:43-0500 [-] twistd 8.2.0 (/usr/bin/python 2.5.2) starting up.
+2009-01-02 16:16:43-0500 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2009-01-02 16:16:43-0500 [-] loggingprotocol.LoggingFactory starting on 9020
+2009-01-02 16:16:43-0500 [-] Starting factory <loggingprotocol.LoggingFactory instance at 0x989d66c>
+2009-01-02 16:16:43-0500 [-] twisted.web.server.Site starting on 9021
+2009-01-02 16:16:43-0500 [-] Starting factory <twisted.web.server.Site instance at 0x989d6ec>
+2009-01-02 16:16:58-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:16:58 +0000] "GET / HTTP/1.1" 200 838 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:04-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:03 +0000] "GET / HTTP/1.1" 200 838 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:09-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:08 +0000] "GET / HTTP/1.1" 200 2586 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:14-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:13 +0000] "GET / HTTP/1.1" 200 4783 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:19-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:18 +0000] "GET / HTTP/1.1" 200 7223 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:24-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:23 +0000] "GET / HTTP/1.1" 200 9663 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:29-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:29 +0000] "GET / HTTP/1.1" 200 11859 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:34-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:34 +0000] "GET / HTTP/1.1" 200 12591 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:39-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:39 +0000] "GET / HTTP/1.1" 200 12591 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:45-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:44 +0000] "GET / HTTP/1.1" 200 16005 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:50-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:49 +0000] "GET / HTTP/1.1" 200 18445 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:17:55-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:54 +0000] "GET / HTTP/1.1" 200 18872 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:18:00-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:17:59 +0000] "GET / HTTP/1.1" 200 18872 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:18:05-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:18:04 +0000] "GET / HTTP/1.1" 200 18872 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:18:10-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:18:10 +0000] "GET / HTTP/1.1" 200 18872 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:40:41-0500 [-] Received SIGTERM, shutting down.
+2009-01-02 16:40:41-0500 [-] (Port 9021 Closed)
+2009-01-02 16:40:41-0500 [-] Stopping factory <twisted.web.server.Site instance at 0x989d6ec>
+2009-01-02 16:40:41-0500 [-] (Port 9020 Closed)
+2009-01-02 16:40:41-0500 [-] Stopping factory <loggingprotocol.LoggingFactory instance at 0x989d66c>
+2009-01-02 16:40:41-0500 [-] Main loop terminated.
+2009-01-02 16:40:41-0500 [-] Server Shut Down.
+2009-01-02 16:40:44-0500 [-] Log opened.
+2009-01-02 16:40:44-0500 [-] twistd 8.2.0 (/usr/bin/python 2.5.2) starting up.
+2009-01-02 16:40:44-0500 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2009-01-02 16:40:44-0500 [-] loggingprotocol.LoggingFactory starting on 9020
+2009-01-02 16:40:44-0500 [-] Starting factory <loggingprotocol.LoggingFactory instance at 0x8fdfb6c>
+2009-01-02 16:40:44-0500 [-] twisted.web.server.Site starting on 9021
+2009-01-02 16:40:44-0500 [-] Starting factory <twisted.web.server.Site instance at 0x8fdfbec>
+2009-01-02 16:41:08-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:41:07 +0000] "GET / HTTP/1.1" 200 7205 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:41:13-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:41:12 +0000] "GET / HTTP/1.1" 200 8857 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:41:18-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:41:17 +0000] "GET / HTTP/1.1" 200 10745 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:41:23-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:41:22 +0000] "GET / HTTP/1.1" 200 12100 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:41:28-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:41:28 +0000] "GET / HTTP/1.1" 200 12100 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:41:33-0500 [HTTPChannel,0,127.0.0.1] 127.0.0.1 - - [02/Jan/2009:21:41:33 +0000] "GET / HTTP/1.1" 200 12100 "-" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.5) Gecko/2008121622 Ubuntu/8.10 (intrepid) Firefox/3.0.5"
+2009-01-02 16:41:33-0500 [-] Received SIGTERM, shutting down.
+2009-01-02 16:41:33-0500 [-] (Port 9021 Closed)
+2009-01-02 16:41:33-0500 [-] Stopping factory <twisted.web.server.Site instance at 0x8fdfbec>
+2009-01-02 16:41:33-0500 [-] (Port 9020 Closed)
+2009-01-02 16:41:33-0500 [-] Stopping factory <loggingprotocol.LoggingFactory instance at 0x8fdfb6c>
+2009-01-02 16:41:33-0500 [-] Main loop terminated.
+2009-01-02 16:41:33-0500 [-] Server Shut Down.
